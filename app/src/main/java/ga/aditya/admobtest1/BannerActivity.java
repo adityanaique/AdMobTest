@@ -18,6 +18,8 @@ public class BannerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_banner);
 
         mAdView = (AdView) findViewById(R.id.adView);
+        // Set the AdListener before building or loading the AdRequest.
+        mAdView.setAdListener(new ToastAdListener(this));
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
     }
