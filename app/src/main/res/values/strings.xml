@@ -1,9 +1,16 @@
 <resources>
     <string name="app_name">AdMob Test 1</string>
-
-    <string name="hello_world">Hello world!</string>
+    <!-- Activity labels for action bar -->
     <string name="action_settings">Settings</string>
+    <string name="activity_label_banner_ad">Banner Ad</string>
+    <string name="activity_label_interstitial_ad">Interstitial Ad</string>
 
-    <!-- Test unit id for banner ads. -->
+    <!-- Test unit id for banner and interstitial ads. -->
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="show_banner_ad">Show Banner Ad</string>
+    <string name="load_interstitial">Load Interstitial</string>
+    <string name="interstitial_not_ready">Interstitial not ready</string>
+    <string name="interstitial_loading">Loading interstitial</string>
 </resources>

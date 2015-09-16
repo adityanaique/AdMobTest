@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout_activity_interstitial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_load_interstitial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:onClick="loadInterstitial"
+        android:text="@string/load_interstitial" />
+
+    <Button
+        android:id="@+id/button_show_interstitialAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_load_interstitial"
+        android:onClick="showInterstitial"
+        android:text="@string/interstitial_not_ready" />
+
+</RelativeLayout>

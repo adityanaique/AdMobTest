@@ -23,6 +23,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(showBannerAd);
             }
         });
+
+        Button btnInterstitialAd = (Button) findViewById(R.id.button_interstitialAd);
+        btnInterstitialAd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent showInterstitialActivity = new Intent(MainActivity.this, InterstitialActivity.class);
+                startActivity(showInterstitialActivity);
+            }
+        });
     }
 
     @Override

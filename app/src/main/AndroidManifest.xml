@@ -26,7 +26,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".BannerActivity" />
+        <activity
+            android:name=".BannerActivity"
+            android:label="@string/activity_label_banner_ad" />
+
+        <activity
+            android:name=".InterstitialActivity"
+            android:label="@string/activity_label_interstitial_ad" />
 
         <!-- AdActivity - required to show ad overlays -->
         <activity
