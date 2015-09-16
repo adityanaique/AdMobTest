@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AdMob Test 1</string>
+    <string name="app_name">AdMob Test</string>
     <!-- Activity labels for action bar -->
     <string name="action_settings">Settings</string>
     <string name="activity_label_banner_ad">Banner Ad</string>
@@ -10,6 +10,7 @@
     <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
 
     <string name="show_banner_ad">Show Banner Ad</string>
+    <string name="show_interstitial_ad">Show Interstitial Ad</string>
     <string name="load_interstitial">Load Interstitial</string>
     <string name="interstitial_not_ready">Interstitial not ready</string>
     <string name="interstitial_loading">Loading interstitial</string>
